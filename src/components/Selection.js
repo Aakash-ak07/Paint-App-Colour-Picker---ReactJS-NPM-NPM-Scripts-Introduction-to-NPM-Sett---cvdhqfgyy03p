@@ -1,7 +1,7 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
-function Selection(props){
-    let [style, setStyle] = useState({background: ""});
+function Selection(props) {
+    let [style, setStyle] = useState({ background: "" });
     let applyColor = props.applyColor;
 
     return(
